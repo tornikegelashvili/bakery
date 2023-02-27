@@ -148,6 +148,7 @@ figure{
     color: #171B1B;
 }
 .products{
+    width: 100%;
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
@@ -155,7 +156,6 @@ figure{
 .fresh{
     display: block;
     background-color: #f4ecec;
-    width:400px;
     margin-right: 8px;
     padding: 30px 32px;
 }
@@ -197,10 +197,32 @@ figure{
 .conteiner-2{
     background-color: #171B1B;
     display: flex;
+    justify-content: space-between;
 }
-.play img{
-    width: 150px;
-    height: 150px;
-    padding-top: 40px;
-    padding-left: 40px;
+.play-left{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play-left-img{
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 90px;
+    left: 252px;
+
+}
+.play-button{
+    z-index: 10;
+    width: 160px;
+}
+.play-right{
+    padding-right: 150px;
+    padding-top: 100px;
+    width:800px
+    
+}
+.story-behind__title{
+    margin-top: 0;
 }
