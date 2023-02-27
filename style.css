@@ -1,5 +1,6 @@
 .container{
     max-width:100%;
+    margin: 0 auto;
     padding: 0 135px;
     background-color:#171B1B ;
 }
@@ -17,7 +18,7 @@ body{
     font-size:20px ;
     line-height: 23px;
     color:#f4ecec;
-    
+    margin: 0;
     
 }
 img{
@@ -86,16 +87,14 @@ figure{
        margin-top: 80px;
 }
 .scroll-down{
-   margin-left: 50%;
+    margin-left: 50%;
     width:60px;
-    height: 60px;
+    padding-bottom: 30px;
 
 }
 
-.container-2{
-    width:100%;
-    height: auto;
-    padding: 0 135px;
+.container-1{
+    color: #171B1B;
     background-color:#F5D3AB;
 }
 .baking-moments{
@@ -116,9 +115,12 @@ figure{
 }
 .down-up{
     padding-top: 20px;
-    width:40px;
-    height:100px;
+    width:65px;
  
+}
+.baking-moments__title,
+.baking-moments__subtitle{
+    color: #171B1B;
 }
 .left-side__text{
     font-family: 'Ultra', serif;
@@ -130,7 +132,7 @@ figure{
     text-align: center;
 }
 .baked p{
-    font-family: Oswald;
+    font-family: 'Oswald', sans-serif;;
     font-size: 16px;
     font-weight: 400;
     line-height: 32px;
@@ -147,34 +149,39 @@ figure{
 }
 .products{
     display: flex;
+    justify-content: center;
     padding-bottom: 50px;
 }
 .fresh{
+    display: block;
     background-color: #f4ecec;
     width:400px;
-    height: 500px;
+    margin-right: 8px;
+    padding: 30px 32px;
 }
-.fresh img{
+.fresh:last-child{
+    background-image: url(image/Bitmap3.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.fresh-img{
     padding-top: 20px;
-    padding-left: 20px;
-    width:200px;
-    height:180px;
-    color:#F5D3AB
+    width:102px;
+    color:#F5D3AB;
+    padding-bottom: 60px;
+    max-height: 150px;
+
 }
 .fresh h4{
-    padding-left: 20px;
     font-family: 'ultra';
     font-size: 40px;
     font-weight: 400;
     line-height: 48px;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #171B1B;
+    margin: 0;
+    padding-top: 20px;
+
 }
 .fresh p{
-  
-    padding-left: 20px;
-    color: #171B1B;
     font-family: 'DM Sans';
     font-size: 16px;
     font-weight: 400;
@@ -184,4 +191,16 @@ figure{
 }
 .products :hover{
   background-color:#9EAD8D;
+  transform: scale(1.1);
+  transition: all .2s ease-in-out;
+}
+.conteiner-2{
+    background-color: #171B1B;
+    display: flex;
+}
+.play img{
+    width: 150px;
+    height: 150px;
+    padding-top: 40px;
+    padding-left: 40px;
 }
