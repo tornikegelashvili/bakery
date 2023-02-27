@@ -32,7 +32,7 @@ img{
     font-weight: 400;
     font-size: 72px;
     line-height: 88px;
-    color:#ffffff
+    color:#ffffff;
 }
 .subtitle{
     font-family: 'Oswald', sans-serif;
@@ -58,6 +58,7 @@ figure{
    padding-right: 30px;
    margin-right: 30px;
    color: #ffffff;
+
 }
 .header-button {
     padding: 10px 15px;
@@ -70,6 +71,7 @@ figure{
 
 }
 .header-button a{
+    font-family: 'Oswald', sans-serif;
     color: #ffffff;
 }
 .bakery-history{
@@ -225,4 +227,99 @@ figure{
 }
 .story-behind__title{
     margin-top: 0;
+}
+.container-3{
+    background-color: #F5D3AB;
+    
+}
+.morning-subtitle,
+.morning-title{
+    color: #171B1B;
+    margin: 0;
+}
+
+.morning-bottom{
+    text-align: center;
+}
+.morning-button{
+    padding: 12px 40px;
+    background: transparent;
+    border: 1px solid purple;
+    margin: 67px 0px 100px;
+    text-align: center;
+}
+.morning-button a{
+    font-family: 'Oswald', sans-serif;
+    color: #171B1B;
+}
+.morning-subtitle{
+    padding: 100px 0px 18px;
+}
+.work{
+    color: #ffffff;
+}
+.container-4{
+    background-color: #171B1B;
+}
+.work-top{
+    text-align: center;
+    padding: 100px 0px 50px;
+}
+.work-subtitle,
+.work-title{
+    margin: 0;
+}
+.work-subtitle{
+    padding-bottom: 18px;
+}
+.work-title{
+    margin-bottom: 60px;
+}
+.work-concept{
+    padding-bottom: 160px;
+}
+.work-concept__products{
+    counter-reset: section;
+    display: flex;
+    color: #171B1B;
+    margin-bottom: 170px;
+}
+
+.work-concept__item::before{
+    counter-increment: section;
+    content: "0" counter(section) "";
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #171B1B;
+    letter-spacing: 3px;
+
+}
+.work-concept__item{
+    width: 25%;
+    height: 385px;
+    padding: 50px 30px;
+    background-color: #ffffff;
+}
+.work-concept__item:hover{
+    background-color:#9EAD8D;
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+.work-concept__item:nth-child(2){
+    background-image: url(image/Bitmap3.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.work-concept__title{
+    font-size: 40px;
+    margin-bottom: 18px;
+    color: #171B1B;
+}
+.work-concept__description{
+    width: 204px;
+}
+
+.work-explore__button a{
+    color: #ffffff;
 }
